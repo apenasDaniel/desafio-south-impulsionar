@@ -8,4 +8,6 @@ public interface ProdutoService {
     public Produto adicionarProduto(Produto produto);
 
     public List<Produto> listeProdutosLista();
+
+    public void excluirProduto(Long produtoId);
 }

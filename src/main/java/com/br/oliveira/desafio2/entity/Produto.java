@@ -1,9 +1,6 @@
 package com.br.oliveira.desafio2.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.math.BigDecimal;
 
 @Entity
@@ -15,6 +12,7 @@ public class Produto {
     private String produtoNome;
     private BigDecimal produtoPreco;
     private int produtoQuantidade;
+    @Enumerated(EnumType.STRING)
     private ProdutoCategoria produtoCategoria;
 
     public Long getProdutoId() {
@@ -63,6 +61,9 @@ public class Produto {
         this.produtoPreco = produtoPreco;
         this.produtoQuantidade = produtoQuantidade;
         this.produtoCategoria = produtoCategoria;
+    }
+
+    public Produto() {
     }
 
     @Override

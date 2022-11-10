@@ -4,10 +4,7 @@ import com.br.oliveira.desafio2.entity.Produto;
 
 import com.br.oliveira.desafio2.service.ProdutoService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -25,5 +22,11 @@ public class ProdutoResources {
     @GetMapping("/produtos")
     public List<Produto> listeProdutosLista () {
         return produtoService.listeProdutosLista();
+    }
+
+    @DeleteMapping("/produtos/{id}")
+    public String excluirProduto(@PathVariable("id") Long produtoId) {
+        produtoService.excluirProduto(produtoId);
+        return "Produto excluído com sucesso.";
     }
 }

@@ -21,4 +21,9 @@ public class ProdutoServiceImplement implements ProdutoService{
     public List<Produto> listeProdutosLista() {
         return produtoRepository.findAll();
     }
+
+    @Override
+    public void excluirProduto(Long produtoId) {
+        produtoRepository.deleteById(produtoId);
+    }
 }

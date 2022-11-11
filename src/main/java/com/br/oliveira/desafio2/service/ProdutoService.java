@@ -10,4 +10,6 @@ public interface ProdutoService {
     public List<Produto> listeProdutosLista();
 
     public void excluirProduto(Long produtoId);
+
+    public Produto edicaoProduto(Long produtoId, Produto produto);
 }

@@ -29,4 +29,9 @@ public class ProdutoResources {
         produtoService.excluirProduto(produtoId);
         return "Produto excluído com sucesso.";
     }
+
+    @PutMapping("/produtos/{id}")
+    public Produto edicaoProduto(@PathVariable("id") Long produtoId, @RequestBody Produto produto) {
+        return produtoService.edicaoProduto(produtoId,produto);
+    }
 }

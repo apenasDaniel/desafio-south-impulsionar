@@ -1,1 +1,1 @@
-CREATE DATABASE oliveiraapp;
+# CREATE DATABASE oliveiraapp;

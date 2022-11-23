@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    username: postgres
+    password: root
+    url: jdbc:postgresql://localhost:5432/
+  flyway:
+    schemas: dbtest
+  jpa:
+    hibernate:
+      ddl-auto: none
+

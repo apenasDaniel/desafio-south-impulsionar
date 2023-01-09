@@ -1,6 +1,6 @@
-package com.br.oliveira.desafio2.repository;
+package com.br.oliveira.repository;
 
-import com.br.oliveira.desafio2.entity.Produto;
+import com.br.oliveira.entity.Produto;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,8 +1,8 @@
-package com.br.oliveira.desafio2.resouces;
+package com.br.oliveira.resouces;
 
-import com.br.oliveira.desafio2.entity.Produto;
+import com.br.oliveira.entity.Produto;
 
-import com.br.oliveira.desafio2.service.ProdutoService;
+import com.br.oliveira.service.ProdutoService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.slf4j.Logger;

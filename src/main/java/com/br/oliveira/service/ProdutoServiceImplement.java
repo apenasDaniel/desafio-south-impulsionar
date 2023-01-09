@@ -1,10 +1,9 @@
-package com.br.oliveira.desafio2.service;
+package com.br.oliveira.service;
 
-import com.br.oliveira.desafio2.entity.Produto;
-import com.br.oliveira.desafio2.repository.ProdutoRepository;
+import com.br.oliveira.entity.Produto;
+import com.br.oliveira.repository.ProdutoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.PutMapping;
 
 import java.util.List;
 import java.util.Objects;

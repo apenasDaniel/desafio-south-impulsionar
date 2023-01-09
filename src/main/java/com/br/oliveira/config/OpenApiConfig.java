@@ -1,4 +1,4 @@
-package com.br.oliveira.desafio2.config;
+package com.br.oliveira.config;
 
 import io.swagger.v3.oas.models.Components;
 import io.swagger.v3.oas.models.OpenAPI;

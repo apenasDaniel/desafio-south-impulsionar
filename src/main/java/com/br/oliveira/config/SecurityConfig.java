@@ -1,4 +1,4 @@
-package com.br.oliveira.desafio2.config;
+package com.br.oliveira.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

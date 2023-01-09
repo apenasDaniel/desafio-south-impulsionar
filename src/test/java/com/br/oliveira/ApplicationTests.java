@@ -1,10 +1,10 @@
-package com.br.oliveira.desafio2;
+package com.br.oliveira;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Desafio2ApplicationTests {
+class ApplicationTests {
 
 	@Test
 	void contextLoads() {

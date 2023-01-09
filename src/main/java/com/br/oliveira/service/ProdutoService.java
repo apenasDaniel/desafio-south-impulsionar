@@ -1,6 +1,6 @@
-package com.br.oliveira.desafio2.service;
+package com.br.oliveira.service;
 
-import com.br.oliveira.desafio2.entity.Produto;
+import com.br.oliveira.entity.Produto;
 
 import java.util.List;
 

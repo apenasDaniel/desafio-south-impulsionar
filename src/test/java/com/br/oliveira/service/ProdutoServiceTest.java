@@ -1,16 +1,14 @@
-package com.br.oliveira.desafio2.service;
+package com.br.oliveira.service;
 
-import com.br.oliveira.desafio2.entity.Produto;
-import com.br.oliveira.desafio2.entity.ProdutoCategoria;
-import com.br.oliveira.desafio2.repository.ProdutoRepository;
+import com.br.oliveira.entity.Produto;
+import com.br.oliveira.entity.ProdutoCategoria;
+import com.br.oliveira.repository.ProdutoRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 
 import java.math.BigDecimal;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
 class ProdutoServiceTest {

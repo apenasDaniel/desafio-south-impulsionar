@@ -1,4 +1,4 @@
-package com.br.oliveira.desafio2.entity;
+package com.br.oliveira.entity;
 
 public enum ProdutoCategoria {
 

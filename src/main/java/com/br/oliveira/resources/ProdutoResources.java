@@ -1,4 +1,4 @@
-package com.br.oliveira.resouces;
+package com.br.oliveira.resources;
 
 import com.br.oliveira.entity.Produto;
 
